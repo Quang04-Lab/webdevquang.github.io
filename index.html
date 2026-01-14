@@ -349,29 +349,7 @@
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>🕒 Đồng Hồ Thông Minh</h1>
-            <p>Điều khiển từ xa qua Web Interface</p>
-        </div>
-        
-        <div class="main-content" id="mainContent">
-            <div class="loading" id="loading">
-                <p>Đang kết nối đến ESP32...</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="refresh-btn" onclick="fetchData()" title="Làm mới dữ liệu">
-        🔄
-    </div>
-
-    <script>
-        // Biến toàn cục
-        let espData = {};
-        let isUnlocked = false;
-        const ESP_IP = window.location.hostname || "192.168.1.100"; // Thay bằng IP thực của ESP
+<body>21"; // Thay bằng IP thực của ESP
         
         // Templates HTML
         const templates = {
